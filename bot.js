@@ -1,5 +1,8 @@
 // this code was given to me by 1988_YumChocolate from the ROBLOX API Server, all credits (as far as I know) go to him
-var PORT = process.env.PORT || 5000;
+var port = process.env.PORT || 3000;
+app.listen(port, "0.0.0.0", function() {
+console.log("Listening on Port 3000");
+});
 const roblox = require('noblox.js')
 const Discord = require('discord.js')
 const client = new Discord.Client();

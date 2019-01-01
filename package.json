@@ -1,0 +1,20 @@
+{
+  "name": "rankingbot",
+  "version": "1.0.0",
+  "description": "to rank",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "noblox.js": "^4.1.3",
+    "roblox-js": "^4.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rank"
+  ],
+  "author": "FroschCrafterLP",
+  "license": "ISC"
+}

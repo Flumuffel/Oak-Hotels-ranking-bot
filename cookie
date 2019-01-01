@@ -1,1 +1,1 @@
-{"cookie":process.env.token,"time":1546258175047}
+{"cookie":process.env.cookie,"time":1546258175047}

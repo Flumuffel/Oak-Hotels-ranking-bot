@@ -1,11 +1,9 @@
 // this code was given to me by 1988_YumChocolate from the ROBLOX API Server, all credits (as far as I know) go to him
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-
 
 const roblox = require('noblox.js')
 const Discord = require('discord.js')
 const client = new Discord.Client();
-var token = process.env.token;
+var token = process.env.id;
 
 client.login(token)
 

@@ -4,6 +4,10 @@ const Discord = require('discord.js')
 const client = new Discord.Client();
 var token = process.env.id;
 
+var port = process.env.PORT || 3000;
+pp.listen(port, "0.0.0.0", function() {
+console.log("Listening on Port 3000");
+
 client.login(token)
 
 var cookie = process.env.cookie;
@@ -69,7 +73,4 @@ client.on('message', (message) => {
        }
        return;
    }
-   var port = process.env.PORT || 3000;
-    app.listen(port, "0.0.0.0", function() {
-    console.log("Listening on Port 3000");
 })
